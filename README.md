@@ -5,3 +5,5 @@
 # the user is asked to select their appliances from a menu, then they are provided with an ideal schedule and projected monthly energy bill assuming this schedule is followed. They can then edit the schedule and will receive an updated energy bill projection according to their edit
 
 # an excel file is used to store the quantitative data for each type of appliance such as energy consumption, cost of energy at varying times of the day, and the ideal start/end time which is used to create the schedule
+
+# the build path for the project must be configured such that the classpath has all of the provided .jar files added and the filepath of the excel file must be changed to wherever it is on the local machine running the program

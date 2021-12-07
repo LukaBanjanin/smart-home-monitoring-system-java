@@ -28,7 +28,7 @@ public Appliance (int type) throws IOException {//constructor
 	
 	this.type = type;
 	
-	FileInputStream fis = new FileInputStream(new File("C:\\Users\\Luka\\Desktop\\Career\\SHMS\\SHMS.xlsx"));//change path file to wherever the database is located on your computer
+	FileInputStream fis = new FileInputStream(new File("C:\\Users\\Luka\\Desktop\\Career\\SHMS\\SHMS.xlsx"));//change file path to wherever the database is located on your computer
 	XSSFWorkbook wb = new XSSFWorkbook(fis);//workbook object to navigate the excel file
 	XSSFSheet sheet = wb.getSheetAt(0);//sheet object to navigate sheets within a workbook
 	Row row = sheet.getRow(type);//row object to navigate rows within a sheet

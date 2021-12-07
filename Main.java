@@ -8,7 +8,7 @@ public class Main {
 public static void main(String[] args) throws IOException
 {
 	int selection = 0;//for user to interact with menu
-	Appliance [] applianceArray = new Appliance[13];//array that stores all of the appliance objects
+	Appliance [] applianceArray = new Appliance[13];//array that stores all of the appliance objects, currently limited to 1 of each appliance type for the prototype
 	
 	do{
 		System.out.println("Welcome to the Smart Home Monitoring System\n"//initial menu
